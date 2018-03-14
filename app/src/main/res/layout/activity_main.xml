@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/escolha_o_seu_cachorro"
+        android:padding="16dp"
+        android:textColor="#FF0000"
+        android:textSize="20dp"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingBottom="30dp"
+        android:id="@+id/rdgCachorros">
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Border Collie R$ 800,00"
+        android:id="@+id/rdbBorder_Collie"
+        android:checked="true"
+        />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pit_bull_r_700_00"
+        android:id="@+id/rdPit_bull" />
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pastor_alem_o_r_700"
+        android:id="@+id/rdbPastor_alemao"/>
+
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pastor_canadense_r_800_00"
+        android:id="@+id/pastor_canadense"
+        />
+    </RadioGroup>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/f_mea"
+        android:id="@+id/chkFemea"
+        android:checked="true"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/adestrado"
+        android:id="@+id/chkAestrado"
+        android:checked="true"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Com todas as vacinas em dia"
+        android:id="@+id/chkVacina"
+        android:checked="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:id="@+id/Calcular" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="R$ 00,00"
+        android:id="@+id/txtResultado"
+        android:textSize="50dp"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>
+
+
